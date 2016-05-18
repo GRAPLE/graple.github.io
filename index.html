@@ -28,23 +28,35 @@
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
         <h3>
-<a id="welcome-to-graple" class="anchor" href="#welcome-to-graple" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Welcome to GRAPLE.</h3>
+<a id="welcome-to-grapler" class="anchor" href="#welcome-to-grapler" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Welcome to GRAPLEr.</h3>
+
+<p>GRAPLEr is an R-based open-source software product of GRAPLE, the <a href="http://www.gleon.org/">GLEON</a> Research and <a href="http://www.pragma-grid.net/">PRAGMA</a> Lake Expedition.</p>
 
 <p>GRAPLEr brings the power of distributed computing to the fingertips of lake ecology modelers. While it is relatively easy to run one lake model simulation on a personal computer, it is more difficult to execute multiple simulations, which requires additional computing and human resources. To overcome this problem, GRAPLEr, a distributed computing system, integrates and applies overlay virtual network, high-throughput computing, and Web service technologies. GRAPLEr allows submission of hundreds or thousands of General Lake Model (GLM) simulations, runs these lake model simulations efficiently, and retrieves model output.</p>
 
 <h3>
-<a id="the-gleonpragma-expedition" class="anchor" href="#the-gleonpragma-expedition" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>The GLEON/PRAGMA Expedition</h3>
+<a id="using-grapler" class="anchor" href="#using-grapler" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Using GRAPLEr</h3>
 
-<p>By connecting the scientific community with data and model resources, the <a href="http://www.gleon.org/">GLEON</a> Research and <a href="http://www.pragma-grid.net/">PRAGMA</a> Lake Expedition (GRAPLE) enables advanced simulation of lake hydrodynamics and water quality to address research questions. A key goal of the expedition is to bring distributed computing technologies to lake ecology researchers and students, by bringing together a suite of cyber-infrastructure tools that can be used through simple interfaces - e.g. the R/R-Studio environment at a user's desktop.</p>
+<p>GRAPLEr, available on GitHub, is installed on a personal computer and integrated into the R development environment. It acts as a proxy to translate user commands written in R into Web service calls and arranges data between the client and Web service. A GLM simulation is specified by a set of input files (csv files) and model parameters (nml file). The required input files consist of time-series meteorological and inflow data. An additional outflow csv file can be included. Based on inputs, GRAPLEr either (A) performs a batch job which submits multiple preconfigured simulations as a job or (B1) performs a linear sweep or (B2) random sweep which generates multiple simulation input files, as specified, for submission:</p>
 
-<p>GRAPLE combines the <a href="http://ipop-project.org/">IPOP</a> overlay virtual network, the <a href="http://research.cs.wisc.edu/htcondor/">HTCondor</a> batch job scheduler, and Web Service technologies. It allows participating GLEON/PRAGMA institutions to aggregate computational resources and across a distributed group of collaborators and institutions, and presents interfaces that automate the preparation and scheduling of batches of executions of the General Lake Model <a href="http://aed.see.uwa.edu.au/research/models/GLM/">GLM</a>.</p>
+<p><img src="https://github.com/GRAPLE/graple.github.io/blob/master/Slide1.jpg" alt=""></p>
 
-<p>Participants in the expedition are able to easily join a HTCondor high-throughput computing resource pool, with their own local computers (desktops, laptops, servers) by using the IPOP virtual network overlay. Once connected to the HTCondor pool, users can then run batches of simulations (such as parametric sweep runs of the GLM model) in an efficient manner. Users can also access the cyber-infrastructure through GRAPLEr, which provides an interface accessible through R.</p>
+<p>The batch job or option A requires multiple simulation folders with required meteorological, inflow, and parameter files:</p>
+
+<p><img src="https://github.com/GRAPLE/graple.github.io/blob/master/Slide2.jpg" alt=""></p>
+
+<p>The linear or random sweep jobs B require a single set of baseline meteorological, inflow, and parameter files and a job description file (csv file) specifying constant or random distribution offsets to input variables within the meteorological and inflow files:</p>
+
+<p><img src="https://github.com/GRAPLE/graple.github.io/blob/master/Slide3.jpg" alt=""></p>
+
+<p><img src="https://github.com/GRAPLE/graple.github.io/blob/master/Slide4.jpg" alt=""></p>
+
+<p>The job description file specifies the file (met.csv or inflow.csv) to be modified, number of samples or iterations, variables, mathematical operation (add, sub, mult, or div), type of distribution (linear, random, uniform, binomial, or Poisson), and range of values. Next, GRAPLEr configures, queues, and runs jobs and consolidates and prepares results for download. The resulting output at the completion of the model run is a netCDF file containing time-series data of lake variables at varying depths.</p>
 
 <h3>
 <a id="getting-started" class="anchor" href="#getting-started" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Getting started</h3>
 
-<p>You can go through the <a href="http://www.acis.ufl.edu/%7Erenato/graple/LakeModelingModule_28Sep15.R">project EDDIE</a> module used in a workshop at GLEON17 to test-drive the execution of hundreds of GLM model runs through GRAPLEr</p>
+<p>You can go through the <a href="http://cemast.illinoisstate.edu/data-for-students/modules/lake-modeling.shtml">project EDDIE</a> module to test-drive the execution of hundreds of GLM model runs through GRAPLEr</p>
 
 <h3>
 <a id="contact-us" class="anchor" href="#contact-us" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Contact us</h3>
