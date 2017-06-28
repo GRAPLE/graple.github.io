@@ -3,7 +3,7 @@ permalink: /mailinglist/
 title: "Mailing List"
 header:
   overlay_image: /assets/images/header.jpg
-  overlay_filter: rgba(0, 127, 127, 0.75)
+  overlay_filter: rgba(127, 0, 127, 0.75)
 excerpt: 'GRAPLEr Users Mailing List'
 ---
 ## Subscribe, Unsubscribe, Change Subscription

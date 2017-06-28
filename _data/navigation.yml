@@ -30,12 +30,14 @@ main:
     url: /team/
   - title: Contact
     url: /contact/
-  - title: Gallery
-    url: /gallery/
   - title: Sister Projects
     url: /sisters/
+  - title: Publications
+    url: /publications/
   - title: Mailing List
     url: /mailinglist/
+  - title: Gallery
+    url: /gallery/
   - title: Sponsors
     url: /sponsors/
 
