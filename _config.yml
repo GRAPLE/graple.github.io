@@ -11,8 +11,8 @@ title                    : "GRAPLE"
 title_separator          : "-"
 name                     : &name "GRAPLE" # &name is a YAML anchor which can be *referenced later
 description              : &description "Distributed Computing Made Easy for Lake Ecology Modeling"
-url                      : &url "https://graple.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : &base-url # the subpath of your site, e.g. "/blog"
+url                      : "https://graple.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "GRAPLE"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
