@@ -3,7 +3,7 @@ permalink: /publications/
 title: "Publications"
 header:
   overlay_image: /assets/images/header.jpg
-  overlay_filter: rgba(127, 0, 255, 0.75)
+  overlay_filter: rgba(127, 127, 0, 0.75)
 excerpt: "GRAPLE Publications"
 ---
 Subratie, K., Aditya, S., Mahesula, S., Figueiredo, R., Carey, C. and Hanson, P. (2017). GRAPLEr: A distributed collaborative environment for lake ecosystem modeling that integrates overlay networks, high-throughput computing, and WEB services. Concurrency and Computation: Practice and Experience, [online] 29(13), p.e4139. Available at: [http://dx.doi.org/10.1002/cpe.4139].

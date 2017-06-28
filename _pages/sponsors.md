@@ -3,7 +3,7 @@ permalink: /sponsors/
 title: "Sponsors"
 header:
   overlay_image: /assets/images/header.jpg
-  overlay_filter: rgba(127, 0, 127, 0.75)
+  overlay_filter: rgba(255, 127, 127, 0.75)
 excerpt: 'GRAPLE Sponsors'
 ---
 

@@ -2,7 +2,7 @@
 title: "PRAGMA 32"
 header:
   overlay_image: /assets/images/header.jpg
-  overlay_filter: rgba(127, 127, 0, 0.75)
+  overlay_filter: rgba(127, 127, 255, 0.75)
 excerpt: "Photo Gallery"
 permalink: /gallery/
 gallery:
