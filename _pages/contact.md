@@ -26,11 +26,6 @@ excerpt: 'Contact GRAPLE Team'
 <h2 class="clear-both">Technical Support</h2>
 
 <div class="one-third">
-  <strong>Kensworth Subratie</strong><br />
-  <i class="fa fa-envelope-o" aria-hidden="true"></i> kcratie{at}acis.ufl.edu
-</div>
-
-<div class="one-third">
   <strong>Vahid Daneshmand</strong><br />
   <i class="fa fa-envelope-o" aria-hidden="true"></i> vdaneshmand{at}acis.ufl.edu
 </div>
