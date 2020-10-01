@@ -18,7 +18,7 @@ Professor, ACIS Lab, University of Florida
 ![Cayelan C. Carey](../assets/images/cayelan.jpg){: .profile-img}
 ### [Dr. Cayelan C. Carey <i class="fa fa-link"></i>](http://www.carey.biol.vt.edu/)
 
-Assistant Professor, Carey Lab, Virginia Tech
+Associate Professor, Carey Lab, Virginia Tech
 {::nomarkdown}</div>{:/nomarkdown}
 
 {::nomarkdown}<div class="one-half clear-both">{:/nomarkdown}
@@ -32,14 +32,14 @@ Distinguished Research Professor, Center for Limnology, University of Wisconsin-
 ![Kensworth Subratie](../assets/images/ken.jpg){: .profile-img}
 ### [Kensworth Subratie <i class="fa fa-link"></i>](https://www.acis.ufl.edu/people/kcratie)
 
-PhD Candidate, ACIS Lab, University of Florida
+PhD, ACIS Lab, University of Florida
 {::nomarkdown}</div>{:/nomarkdown}
 
 {::nomarkdown}<div class="one-half clear-both">{:/nomarkdown}
 ![Saumitra Aditya](../assets/images/saumitra.jpg){: .profile-img }
 ### [Saumitra Aditya <i class="fa fa-link"></i>](https://www.acis.ufl.edu/people/saumitraaditya)
 
-PhD Candidate, ACIS Lab, University of Florida
+Alumni, ACIS Lab, University of Florida
 {::nomarkdown}</div>{:/nomarkdown}
 
 {::nomarkdown}<div class="one-half">{:/nomarkdown}
@@ -60,21 +60,21 @@ Alumni, ACIS Lab, University of Florida
 ![Kaitlin J. Farrell](../assets/images/kait.jpg){: .profile-img}
 ### [Dr. Kaitlin J. Farrell <i class="fa fa-link"></i>](http://kaitlinjfarrell.weebly.com/)
 
-Postdoctoral Associate, Carey Lab, Virginia Tech
+Assistant Professor, Odum School of Ecology, University of Georgia
 {::nomarkdown}</div>{:/nomarkdown}
 
 {::nomarkdown}<div class="one-half clear-both">{:/nomarkdown}
 ![Arianna Krinos](../assets/images/arianna.jpg){: .profile-img}
 ### [Arianna Krinos <i class="fa fa-link"></i>](https://github.com/akrinos)
 
-Undergraduate Student, Carey Lab, Virginia Tech
+Alumni, Carey Lab, Virginia Tech
 {::nomarkdown}</div>{:/nomarkdown}
 
 {::nomarkdown}<div class="one-half">{:/nomarkdown}
 ![Hari Hara Subramani Sundararaman](../assets/images/hari.jpg){: .profile-img}
 ### [Hari Hara Subramani Sundararaman <i class="fa fa-link"></i>](https://github.com/itshari)
 
-Volunteer, ACIS Lab, University of Florida
+Alumni, University of Florida
 {::nomarkdown}</div>{:/nomarkdown}
 
 {::nomarkdown}<div class="one-half clear-both">{:/nomarkdown}
