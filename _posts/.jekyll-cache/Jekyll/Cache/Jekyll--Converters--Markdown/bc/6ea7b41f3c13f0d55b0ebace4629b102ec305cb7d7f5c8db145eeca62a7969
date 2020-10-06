@@ -1,0 +1,21 @@
+I"2<h2 id="install-rstudio">Install RStudio</h2>
+<p>Download and install <a href="https://www.rstudio.com/products/rstudio/download2/">RStudio</a> on your machine</p>
+
+<h2 id="install-grapler-and-prerequisites">Install GRAPLEr and Prerequisites</h2>
+<p>Run the following commands in RStudio:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>install.packages("httr")
+install.packages("RCurl")
+install.packages("jsonlite")
+install.packages("devtools")
+library("devtools")
+devtools::install_github("GRAPLE/GRAPLEr")
+</code></pre></div></div>
+
+<h2 id="run-a-sample-experiment">Run a Sample Experiment</h2>
+<p>You can go through the <a href="https://serc.carleton.edu/enviro_data/activities/lake_modeling.html">Project EDDIE</a> module to test-drive the execution of hundreds of GLM model runs through GRAPLEr during the Part C activity of the module, and learn many different GRAPLEr commands with detailed annotation.</p>
+
+<h2 id="any-problem">Any Problem?</h2>
+<p>Contact <a href="../contact">Technical Support</a>.</p>
+
+:ET

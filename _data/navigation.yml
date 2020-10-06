@@ -21,7 +21,7 @@
 # main links
 main:
   - title: Latest Release
-    url: /graple-v3.1.1-released/
+    url: /graple-v3.1.2-released/
   - title: Guide
     url: /quick-guide/
   - title: About
@@ -48,8 +48,8 @@ sidebar:
    children:
      - title: Quick Guide
        url: /quick-guide/
-     - title: GRAPLEr v3.1.1
-       url: /graple-v3.1.1-released/
+     - title: GRAPLEr v3.1.2
+       url: /graple-v3.1.2-released/
  - title: Categories
    children:
      - title: Documents

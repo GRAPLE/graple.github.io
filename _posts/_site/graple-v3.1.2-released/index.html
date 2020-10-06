@@ -1,0 +1,38 @@
+<h2 id="major-change">Major Change</h2>
+
+<ul>
+  <li>Replace RCurl with httr to Fix Issue with Running on Windows</li>
+</ul>
+
+<h2 id="instructions">Instructions</h2>
+
+<p class="notice--warning"><strong>Important Note 1:</strong> This version is backward compatible. You can use it with previous version of GRAPLEr, v3.1.1.</p>
+
+<p class="notice--warning"><strong>Important Note 2:</strong> The default submission URL is <code class="language-plaintext highlighter-rouge">https://graple.acis.ufl.edu/</code>. If you are setting the submission URL manually, remember to use it with <code class="language-plaintext highlighter-rouge">https</code>, not <code class="language-plaintext highlighter-rouge">http</code>. Otherwise, you will get an error after running the experiment.</p>
+
+<h3 id="update-to-grapler-312">Update to GRAPLEr 3.1.2</h3>
+
+<p>In RStudio on your machine, run:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>devtools::install_github("GRAPLE/GRAPLEr")
+</code></pre></div></div>
+
+<p>This will install the latest version of GRAPLEr on your machine and replace the old version, if that exists.
+To make sure it has updated to v3.1.2, run:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>packageVersion("GRAPLEr")
+</code></pre></div></div>
+
+<p>The output should be:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[1] ‘3.1.2’
+</code></pre></div></div>
+
+<h2 id="download-release">Download Release</h2>
+
+<p><a href="https://github.com/GRAPLE/GRAPLEr/releases/tag/v3.1.2">GRAPLEr v3.1.2</a></p>
+
+<h2 id="any-problem">Any Problem?</h2>
+
+<p>Contact <a href="../contact">technical support</a>.</p>
+

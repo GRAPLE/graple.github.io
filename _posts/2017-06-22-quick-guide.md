@@ -2,7 +2,7 @@
 layout: single
 permalink: /quick-guide/
 title: "Quick Guide"
-date: 2017-05-24
+date: 2020-10-05
 header:
   overlay_image: /assets/images/header.jpg
   overlay_filter: rgba(0, 127, 255, 0.75)
@@ -12,7 +12,7 @@ sidebar:
 categories:
   - Documents
 tags:
-  - v3.1.0
+  - v3.1.2
 ---
 ## Install RStudio
 Download and install [RStudio] on your machine
@@ -22,7 +22,7 @@ Run the following commands in RStudio:
 
 ```
 install.packages("httr")
-install.packages("RCurl")
+install.packages("RCurl") # For GRAPLEr < v3.1.2
 install.packages("jsonlite")
 install.packages("devtools")
 library("devtools")

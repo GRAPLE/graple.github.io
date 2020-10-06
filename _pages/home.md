@@ -4,10 +4,10 @@ title: "GRAPLE"
 header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/header.jpg
-  cta_label: "Release v3.1.1, August 2020"
+  cta_label: "Release v3.1.2, October 2020"
   caption: "Emerald Bay, Lake Tahoe, California"
 excerpt: 'Distributed Computing Made Easy for Lake Ecology Modeling<br /><br />
-<a href="graple-v3.1.1-released/" class="btn btn--light-outline btn--small">Release v3.1.1, August 2020</a>'
+<a href="graple-v3.1.2-released/" class="btn btn--light-outline btn--small">Release v3.1.2, October 2020</a>'
 ---
 *GRAPLE* is an inter-disciplinary collaboration between computer scientists and lake modelers with the *[GLEON] Research and [PRAGMA] Lake Expedition*.
 

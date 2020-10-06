@@ -1,0 +1,38 @@
+<h2 id="minor-change">Minor Change</h2>
+
+<ul>
+  <li>Update the codebase to be compatible for running on Ubuntu 18.04 Server</li>
+</ul>
+
+<h2 id="instructions">Instructions</h2>
+
+<p class="notice--warning"><strong>Important Note 1:</strong> This version is not backward compatible. You won’t be able to use previous versions of GRAPLEr.</p>
+
+<p class="notice--warning"><strong>Important Note 2:</strong> The default submission URL is <code class="language-plaintext highlighter-rouge">https://graple.acis.ufl.edu/</code>. If you are setting the submission URL manually, remember to use it with <code class="language-plaintext highlighter-rouge">https</code>, not <code class="language-plaintext highlighter-rouge">http</code>. Otherwise, you will get an error after running the experiment.</p>
+
+<h3 id="update-to-grapler-311">Update to GRAPLEr 3.1.1</h3>
+
+<p>In RStudio on your machine, run:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>devtools::install_github("GRAPLE/GRAPLEr")
+</code></pre></div></div>
+
+<p>This will install the latest version of GRAPLEr on your machine and replace the old version, if that exists.
+To make sure it has updated to v3.1.1, run:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>packageVersion("GRAPLEr")
+</code></pre></div></div>
+
+<p>The output should be:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[1] ‘3.1.1’
+</code></pre></div></div>
+
+<h2 id="download-release">Download Release</h2>
+
+<p><a href="https://github.com/GRAPLE/GRAPLEr/releases/tag/v3.1.1">GRAPLEr v3.1.1</a></p>
+
+<h2 id="any-problem">Any Problem?</h2>
+
+<p>Contact <a href="../contact">technical support</a>.</p>
+
