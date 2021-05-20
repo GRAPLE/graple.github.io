@@ -180,9 +180,7 @@
 
 
 
-<div class="page__hero--overlay"
-  style=" background-image: linear-gradient(rgba(127, 0, 255, 0.75), rgba(127, 0, 255, 0.75)), url('/assets/images/header.jpg');"
->
+<div class="page__hero--overlay" style=" background-image: linear-gradient(rgba(127, 0, 255, 0.75), rgba(127, 0, 255, 0.75)), url('/assets/images/header.jpg');">
   
     <div class="wrapper">
       <h1 class="page__title" itemprop="headline">
@@ -212,7 +210,7 @@
     
 
     <section class="page__content" itemprop="text">
-      <p>GRAPLEr is an R-based open-source software product of GRAPLE, the <a href="http://www.gleon.org/">GLEON</a> Research and <a href="http://www.pragma-grid.net/">PRAGMA</a> Lake Expedition.</p>
+      <p>GRAPLEr is an R-based open-source software product of GRAPLE, the <a href="http://www.gleon.org/" rel="nofollow" target="_blank">GLEON</a> Research and <a href="http://www.pragma-grid.net/" rel="nofollow" target="_blank">PRAGMA</a> Lake Expedition.</p>
 
 <p>GRAPLEr brings the power of distributed computing to the fingertips of lake ecology modelers. While it is relatively easy to run one lake model simulation on a personal computer, it is more difficult to execute multiple simulations, which requires additional computing and human resources. To overcome this problem, GRAPLEr, a distributed computing system, integrates and applies overlay virtual network, high-throughput computing, and Web service technologies. GRAPLEr allows submission of hundreds or thousands of General Lake Model (GLM) simulations, runs these lake model simulations efficiently, and retrieves model output.</p>
 
@@ -220,17 +218,17 @@
 
 <p>GRAPLEr, available on GitHub, is installed on a personal computer and integrated into the R development environment. It acts as a proxy to translate user commands written in R into Web service calls and arranges data between the client and Web service. A GLM simulation is specified by a set of input files (csv files) and model parameters (nml file). The required input files consist of time-series meteorological and inflow data. An additional outflow csv file can be included. Based on inputs, GRAPLEr either (A) performs a batch job which submits multiple preconfigured simulations as a job or (B1) performs a linear sweep or (B2) random sweep which generates multiple simulation input files, as specified, for submission:</p>
 
-<p><img src="../assets/images/Slide1.jpg" alt="Slide1" /></p>
+<p><img src="../assets/images/Slide1.jpg" alt="Slide1"></p>
 
 <p>The batch job or option A requires multiple simulation folders with required meteorological, inflow, and parameter files:</p>
 
-<p><img src="../assets/images/Slide2.jpg" alt="Slide2" /></p>
+<p><img src="../assets/images/Slide2.jpg" alt="Slide2"></p>
 
 <p>The linear or random sweep jobs B require a single set of baseline meteorological, inflow, and parameter files and a job description file (csv file) specifying constant or random distribution offsets to input variables within the meteorological and inflow files:</p>
 
-<p><img src="../assets/images/Slide3.jpg" alt="Slide3" /></p>
+<p><img src="../assets/images/Slide3.jpg" alt="Slide3"></p>
 
-<p><img src="../assets/images/Slide4.jpg" alt="Slide4" /></p>
+<p><img src="../assets/images/Slide4.jpg" alt="Slide4"></p>
 
 <p>The job description file specifies the file (met.csv or inflow.csv) to be modified, number of samples or iterations, variables, mathematical operation (add, sub, mul, or div), type of distribution (linear, random, uniform, binomial, or Poisson), and range of values. Next, GRAPLEr configures, queues, and runs jobs and consolidates and prepares results for download. The resulting output at the completion of the model run is a netCDF file containing time-series data of lake variables at varying depths.</p>
 
@@ -267,7 +265,7 @@
   <div>
     <a href="/contact"><i class="fa fa-envelope-o" aria-hidden="true"></i> Contact</a> | <a href="/mailinglist">Mailing List</a> | <a href="/sitemap">Sitemap</a><br />
     <div>Powered by <a href="http://jekyllrb.com" rel="nofollow" target="_blank">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow" target="_blank">Minimal Mistakes</a><br />
-    &copy; 2020 GRAPLE - <a href="http://www.acis.ufl.edu" rel="nofollow" target="_blank">ACIS Lab</a>
+    &copy; 2021 GRAPLE - <a href="http://www.acis.ufl.edu" rel="nofollow" target="_blank">ACIS Lab</a>
     </div>
   </div>
 </div>
