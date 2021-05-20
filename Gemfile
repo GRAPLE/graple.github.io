@@ -2,7 +2,7 @@ source "https://rubygems.org"
 
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
-gem "bundler", ">= 2.1.0"
+gem "bundler"
 
 gem "jekyll-paginate"
 gem "jekyll-sitemap"
